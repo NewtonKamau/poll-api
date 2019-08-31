@@ -34434,6 +34434,9 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
+
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
   components: {
@@ -34647,7 +34650,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: [{
     path: '/',
-    component: _components_ExampleComponent__WEBPACK_IMPORTED_MODULE_2__["default"]
+    components: _components_ExampleComponent__WEBPACK_IMPORTED_MODULE_2__["default"]
   }],
   mode: 'history'
 }));
