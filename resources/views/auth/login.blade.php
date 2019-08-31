@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="bg-red-400">
+<div class="mx-auto h-full flex justify-center item-center">
+    <div class="w-96 bg-blue-900">
+   <div class="svg-wrapper">
+  <h1>Welcome Back</h1>
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
